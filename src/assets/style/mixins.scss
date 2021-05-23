@@ -1,0 +1,16 @@
+@mixin flex($spacing : none,$direction : horizontal){
+    display:flex;
+    @if $direction == vertical{
+        flex-direction: column;
+    }
+    @if $spacing == between{
+        justify-content: space-between;
+    }
+    @else if $spacing == around{
+        justify-content: space-around;
+    }
+    @else if $spacing == center{
+        justify-content:center;
+    }
+    align-items:center;
+}

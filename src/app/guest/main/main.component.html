@@ -1,0 +1,31 @@
+<!-- <p>main works!</p> -->
+<div class="Menu">
+    <svg width="15%" height="auto">
+        <circle cx="50" cy="50" r="40" stroke="aqua" stroke-width="4" fill="tomato" />
+    </svg>
+
+    <div class="navigation">
+        <p routerLink="../Home"    routerLinkActive="activedRoute">Home</p>
+        <p routerLink="../Forum"   routerLinkActive="activedRoute">Forum</p>
+        <p routerLink="../Library" routerLinkActive="activedRoute">Library</p>
+    </div>
+
+    <div class="navigation auth">
+        <p routerLink="../Login"    routerLinkActive="activedRoute">Login</p>
+        <p routerLink="../SignUp"   routerLinkActive="activedRoute">Sign Up</p>
+    </div>
+</div>
+
+<div class="content">
+    <div class="catalog">
+        <app-catalog></app-catalog>
+    </div>
+    
+    <div class="outlet">
+        <router-outlet></router-outlet>
+    </div>
+    
+    <div class="allchat">
+        <app-allchat></app-allchat>
+    </div>
+</div>
