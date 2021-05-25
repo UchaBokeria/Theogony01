@@ -1,6 +1,6 @@
-@mixin flex($spacing : none,$direction : horizontal){
+@mixin flex($spacing : none,$direction : row){
     display:flex;
-    @if $direction == vertical{
+    @if $direction == column{
         flex-direction: column;
     }
     @if $spacing == between{
