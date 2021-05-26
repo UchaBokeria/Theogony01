@@ -6,511 +6,102 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./allchat.component.scss']
 })
 export class AllchatComponent implements OnInit {
-    texts = [
+    msgs = [
       {
-        text: "user21 : hello guys",
-        nickname: "",
+        msg: "hello guyshello glo guyshello guellhello go guyshello guyshello guyshello guys",
+        nickname: "user21 sadasd sad",
+        time: "19:54",
       },
       {
-        text: "user42 : hello friends",
-        nickname: "",
+        msg: "hello friends",
+        nickname: "user42",
+        time: "19:54",
       },
       {
-        text: "user13 : hello world",
-        nickname: "",
+        msg: "hello world",
+        nickname: "user13",
+        time: "19:54",
       },
       {
-        text: "user22 : hello hi",
-        nickname: "",
+        msg: "hello hi",
+        nickname: "user22",
+        time: "19:54",
       },
       {
-        text: "user66 : hellooo",
-        nickname: "",
+        msg: "hellooo",
+        nickname: "user66",
+        time: "19:54",
       },
       {
-        text: "user103 : hii guyss",
-        nickname: "",
+        msg: " hii guyss",
+        nickname: "user10",
+        time: "19:54",
       },
       {
-        text: "user104 : hello guys",
-        nickname: "",
+        msg: " hello guys",
+        nickname: "user10",
+        time: "19:54",
       },
       {
-        text: "user11 : hello maan",
-        nickname: "",
+        msg: "hello maan",
+        nickname: "user11",
+        time: "19:54",
       },
       {
-        text: "user14 : hii",
-        nickname: "",
+        msg: "hii",
+        nickname: "user14",
+        time: "19:54",
       },
       {
-        text: "user18 : welcomee",
-        nickname: "",
+        msg: "welcomee",
+        nickname: "user18",
+        time: "19:54",
       },
       {
-        text: "user15 : hello friend",
-        nickname: "",
+        msg: "hello friend",
+        nickname: "user15",
+        time: "19:54",
       },
       {
-        text: "user106 : how are you?",
-        nickname: "",
+        msg: " how are you?",
+        nickname: "user10",
+        time: "19:54",
       },
       {
-        text: "user211 : am good",
-        nickname: "",
+        msg: " am good",
+        nickname: "user21",
+        time: "19:54",
       },
       {
-        text: "user23 : thank you",
-        nickname: "",
+        msg: "thank you",
+        nickname: "user23",
+        time: "19:54",
       },
       {
-        text: "user21 : hello guys",
-        nickname: "",
+        msg: "hello guys",
+        nickname: "user21",
+        time: "19:54",
       },
       {
-        text: "user42 : hello friends",
-        nickname: "",
+        msg: "hello friends",
+        nickname: "user42",
+        time: "19:54",
       },
       {
-        text: "user13 : hello world",
-        nickname: "",
+        msg: "hello world",
+        nickname: "user13",
+        time: "19:54",
       },
       {
-        text: "user22 : hello hi",
-        nickname: "",
+        msg: "hello hi",
+        nickname: "user22",
+        time: "19:54",
       },
       {
-        text: "user66 : hellooo",
-        nickname: "",
-      },
-      {
-        text: "user103 : hii guyss",
-        nickname: "",
-      },
-      {
-        text: "user104 : hello guys",
-        nickname: "",
-      },
-      {
-        text: "user11 : hello maan",
-        nickname: "",
-      },
-      {
-        text: "user14 : hii",
-        nickname: "",
-      },
-      {
-        text: "user18 : welcomee",
-        nickname: "",
-      },
-      {
-        text: "user15 : hello friend",
-        nickname: "",
-      },
-      {
-        text: "user106 : how are you?",
-        nickname: "",
-      },
-      {
-        text: "user211 : am good",
-        nickname: "",
-      },
-      {
-        text: "user23 : thank you",
-        nickname: "",
-      },
-      {
-        text: "user21 : hello guys",
-        nickname: "",
-      },
-      {
-        text: "user42 : hello friends",
-        nickname: "",
-      },
-      {
-        text: "user13 : hello world",
-        nickname: "",
-      },
-      {
-        text: "user22 : hello hi",
-        nickname: "",
-      },
-      {
-        text: "user66 : hellooo",
-        nickname: "",
-      },
-      {
-        text: "user103 : hii guyss",
-        nickname: "",
-      },
-      {
-        text: "user104 : hello guys",
-        nickname: "",
-      },
-      {
-        text: "user11 : hello maan",
-        nickname: "",
-      },
-      {
-        text: "user14 : hii",
-        nickname: "",
-      },
-      {
-        text: "user18 : welcomee",
-        nickname: "",
-      },
-      {
-        text: "user15 : hello friend",
-        nickname: "",
-      },
-      {
-        text: "user106 : how are you?",
-        nickname: "",
-      },
-      {
-        text: "user211 : am good",
-        nickname: "",
-      },
-      {
-        text: "user23 : thank you",
-        nickname: "",
-      },
-      {
-        text: "user21 : hello guys",
-        nickname: "",
-      },
-      {
-        text: "user42 : hello friends",
-        nickname: "",
-      },
-      {
-        text: "user13 : hello world",
-        nickname: "",
-      },
-      {
-        text: "user22 : hello hi",
-        nickname: "",
-      },
-      {
-        text: "user66 : hellooo",
-        nickname: "",
-      },
-      {
-        text: "user103 : hii guyss",
-        nickname: "",
-      },
-      {
-        text: "user104 : hello guys",
-        nickname: "",
-      },
-      {
-        text: "user11 : hello maan",
-        nickname: "",
-      },
-      {
-        text: "user14 : hii",
-        nickname: "",
-      },
-      {
-        text: "user18 : welcomee",
-        nickname: "",
-      },
-      {
-        text: "user15 : hello friend",
-        nickname: "",
-      },
-      {
-        text: "user106 : how are you?",
-        nickname: "",
-      },
-      {
-        text: "user211 : am good",
-        nickname: "",
-      },
-      {
-        text: "user23 : thank you",
-        nickname: "",
-      },
-      {
-        text: "user21 : hello guys",
-        nickname: "",
-      },
-      {
-        text: "user42 : hello friends",
-        nickname: "",
-      },
-      {
-        text: "user13 : hello world",
-        nickname: "",
-      },
-      {
-        text: "user22 : hello hi",
-        nickname: "",
-      },
-      {
-        text: "user66 : hellooo",
-        nickname: "",
-      },
-      {
-        text: "user103 : hii guyss",
-        nickname: "",
-      },
-      {
-        text: "user104 : hello guys",
-        nickname: "",
-      },
-      {
-        text: "user11 : hello maan",
-        nickname: "",
-      },
-      {
-        text: "user14 : hii",
-        nickname: "",
-      },
-      {
-        text: "user18 : welcomee",
-        nickname: "",
-      },
-      {
-        text: "user15 : hello friend",
-        nickname: "",
-      },
-      {
-        text: "user106 : how are you?",
-        nickname: "",
-      },
-      {
-        text: "user211 : am good",
-        nickname: "",
-      },
-      {
-        text: "user23 : thank you",
-        nickname: "",
-      },
-      {
-        text: "user21 : hello guys",
-        nickname: "",
-      },
-      {
-        text: "user42 : hello friends",
-        nickname: "",
-      },
-      {
-        text: "user13 : hello world",
-        nickname: "",
-      },
-      {
-        text: "user22 : hello hi",
-        nickname: "",
-      },
-      {
-        text: "user66 : hellooo",
-        nickname: "",
-      },
-      {
-        text: "user103 : hii guyss",
-        nickname: "",
-      },
-      {
-        text: "user104 : hello guys",
-        nickname: "",
-      },
-      {
-        text: "user11 : hello maan",
-        nickname: "",
-      },
-      {
-        text: "user14 : hii",
-        nickname: "",
-      },
-      {
-        text: "user18 : welcomee",
-        nickname: "",
-      },
-      {
-        text: "user15 : hello friend",
-        nickname: "",
-      },
-      {
-        text: "user106 : how are you?",
-        nickname: "",
-      },
-      {
-        text: "user211 : am good",
-        nickname: "",
-      },
-      {
-        text: "user23 : thank you",
-        nickname: "",
-      },
-      {
-        text: "user21 : hello guys",
-        nickname: "",
-      },
-      {
-        text: "user42 : hello friends",
-        nickname: "",
-      },
-      {
-        text: "user13 : hello world",
-        nickname: "",
-      },
-      {
-        text: "user22 : hello hi",
-        nickname: "",
-      },
-      {
-        text: "user66 : hellooo",
-        nickname: "",
-      },
-      {
-        text: "user103 : hii guyss",
-        nickname: "",
-      },
-      {
-        text: "user104 : hello guys",
-        nickname: "",
-      },
-      {
-        text: "user11 : hello maan",
-        nickname: "",
-      },
-      {
-        text: "user14 : hii",
-        nickname: "",
-      },
-      {
-        text: "user18 : welcomee",
-        nickname: "",
-      },
-      {
-        text: "user15 : hello friend",
-        nickname: "",
-      },
-      {
-        text: "user106 : how are you?",
-        nickname: "",
-      },
-      {
-        text: "user211 : am good",
-        nickname: "",
-      },
-      {
-        text: "user23 : thank you",
-        nickname: "",
-      },
-      {
-        text: "user21 : hello guys",
-        nickname: "",
-      },
-      {
-        text: "user42 : hello friends",
-        nickname: "",
-      },
-      {
-        text: "user13 : hello world",
-        nickname: "",
-      },
-      {
-        text: "user22 : hello hi",
-        nickname: "",
-      },
-      {
-        text: "user66 : hellooo",
-        nickname: "",
-      },
-      {
-        text: "user103 : hii guyss",
-        nickname: "",
-      },
-      {
-        text: "user104 : hello guys",
-        nickname: "",
-      },
-      {
-        text: "user11 : hello maan",
-        nickname: "",
-      },
-      {
-        text: "user14 : hii",
-        nickname: "",
-      },
-      {
-        text: "user18 : welcomee",
-        nickname: "",
-      },
-      {
-        text: "user15 : hello friend",
-        nickname: "",
-      },
-      {
-        text: "user106 : how are you?",
-        nickname: "",
-      },
-      {
-        text: "user211 : am good",
-        nickname: "",
-      },
-      {
-        text: "user23 : thank you",
-        nickname: "",
-      },
-      {
-        text: "user21 : hello guys",
-        nickname: "",
-      },
-      {
-        text: "user42 : hello friends",
-        nickname: "",
-      },
-      {
-        text: "user13 : hello world",
-        nickname: "",
-      },
-      {
-        text: "user22 : hello hi",
-        nickname: "",
-      },
-      {
-        text: "user66 : hellooo",
-        nickname: "",
-      },
-      {
-        text: "user103 : hii guyss",
-        nickname: "",
-      },
-      {
-        text: "user104 : hello guys",
-        nickname: "",
-      },
-      {
-        text: "user11 : hello maan",
-        nickname: "",
-      },
-      {
-        text: "user14 : hii",
-        nickname: "",
-      },
-      {
-        text: "user18 : welcomee",
-        nickname: "",
-      },
-      {
-        text: "user15 : hello friend",
-        nickname: "",
-      },
-      {
-        text: "user106 : how are you?",
-        nickname: "",
-      },
-      {
-        text: "user211 : am good",
-        nickname: "",
-      },
-      {
-        text: "user23 : thank you",
-        nickname: "",
-      },
+        msg: "hellooo",
+        nickname: "user66",
+        time: "19:54",
+      }
     ]
   constructor() { }
 

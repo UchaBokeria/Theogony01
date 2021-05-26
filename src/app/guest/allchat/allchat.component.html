@@ -1,11 +1,10 @@
-<!--Objects-->
-
-<div class="obj1"></div>
-<div class="obj2">
-    <input type="text" class="inp1" placeholder="Type">
-    <div class="obj3">
-        <div class="txt1">
-          <p style="color: rgba(206, 206, 206, 0.966);" *ngFor="let first of texts">{{first.text}}</p>
-        </div>
+<div class="allchat-container">
+    <input type="text" placeholder="Type">
+    <div class="messages">
+      <div class="message-container"*ngFor="let message of msgs">
+        <p> {{message.nickname}} : {{message.time}} </p>
+        
+        <div class="msg-text"> {{message.msg}} </div>
+      </div>
     </div>
 </div>
