@@ -12,37 +12,43 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
-body {
-	line-height: 1;
 
+body {
+  line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: "";
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
+
 /* Box sizing rules */
 *,
 *::before,
@@ -80,7 +86,7 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background: #000000; //--Added--//
+  background: #000000;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
@@ -110,14 +116,17 @@ input,
 button,
 textarea,
 select {
-  border:0;
-  outline:0;
+  border: 0;
+  outline: 0;
   font: inherit;
-
-}
-//--added--//
-p{
-  color:#424242;
 }
 
-button, select { cursor:pointer; }
+p {
+  color: #424242;
+}
+
+button, select {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */
