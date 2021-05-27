@@ -1,1 +1,110 @@
 @import "~src/assets/style/linkin.scss";
+
+.home-container{
+    padding:5%;
+    min-height:800vh;
+    width:100%;
+    .home-post{
+    }
+    .full{
+        width:100%;
+        height:50vh;
+        background:blue;
+    }
+    .half{
+        width:50%;
+        float:left;
+        height:50vh;
+        background:yellow;
+    }
+    .quarter{
+        width:25%;
+        float:left;
+        height:25vh;
+        background:red;
+    }
+    .half-height{
+        width:50%;
+        height:25vh;
+        background:pink;
+        float:left;
+    }
+    .thierd{
+        width:30%;
+        height:50vh;
+        float:left;
+        background:green;
+    }
+    .forty{
+        width:40%;
+        height:50vh;
+        background:tomato;
+        float:left;
+    }
+    .sixty{
+        width:60%;
+        height:50vh;
+        background:rgb(194, 15, 104);
+        float:left;
+    }
+    // .home-post{
+    //     width:100%;
+    //     height:50vh;
+    //     background:red;
+    //     margin-top:5vh;
+    //     .full{
+    //         width:100%;
+    //         height:50vh;
+    //         background:blue;
+    //     }
+    //     .half{
+    //         width:50%;
+    //         float:left;
+    //         height:50vh;
+    //         background:yellow;
+    //     }
+    //     .quarter{
+    //         width:25%;
+    //         float:left;
+    //         height:25vh;
+    //         background:red;
+    //     }
+    //     .half-height{
+    //         width:50%;
+    //         height:25vh;
+    //         background:pink;
+    //         float:left;
+    //     }
+    // 
+    //     .thierd{
+    //         width:30%;
+    //         height:50vh;
+    //         float:left;
+    //         background:green;
+    //     }
+    //     .forty{
+    //         width:40%;
+    //         height:50vh;
+    //         background:tomato;
+    //         float:left;
+    //     }
+    //     .sixty{
+    //         width:60%;
+    //         height:50vh;
+    //         background:rgb(194, 15, 104);
+    //         float:left;
+    //     }
+    // }
+    // .home-thierd{
+    //     width:100%;
+    //     height:50vh;
+    //     background:red;
+    //     margin-top:5vh;
+    //     display:flex;
+    //     justify-content:space-between;
+    //     align-items: center;
+    // }
+}
+
+
+

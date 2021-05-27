@@ -1,1 +1,10 @@
-<p>allchat works!</p>
+<div class="allchat-container">
+    <input type="text" placeholder="Type">
+    <div class="messages">
+      <div class="message-container"*ngFor="let message of msgs">
+        <p> {{message.nickname}} : {{message.time}} </p>
+        
+        <div class="msg-text"> {{message.msg}} </div>
+      </div>
+    </div>
+</div>
