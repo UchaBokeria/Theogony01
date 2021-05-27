@@ -12,7 +12,7 @@
   }
   //--added--//
     font-family:$mainFont;
-    font-size: 1.95vw;
+    font-size: 1.40vw;
     letter-spacing: 3px;
   //--added--//
 .test svg{
@@ -21,6 +21,8 @@
   height: 15vw;
   width: 15vw;
   top: -1vw;
+  width: 20vh;
+  left: 2vh;
   @media screen and(max-width: 768px){
     top: 0;
   }
@@ -43,6 +45,8 @@
     .navigation p {
       cursor: pointer;
       //--added--//
+      position: relative;
+        left: 4vh;
       transition: text-shadow .3s ease-in-out,
                   color .3s ease-in-out,
                   -webkit-box-reflect .3s ease-in-out;
