@@ -5,42 +5,20 @@
     height:10vh;
     color:$turnOffColor;
     @include flex();
-  svg{
-    @media screen and (max-width: 468px){
-      display: none;
-    }
-  }
-  //--added--//
-    font-family:$mainFont;
-    font-size: 1.40vw;
-    letter-spacing: 3px;
-  //--added--//
-.test svg{
-  position: absolute;
-  z-index: 999999;
-  height: 15vw;
-  width: 15vw;
-  top: -1vw;
-  width: 20vh;
-  left: 2vh;
-  @media screen and(max-width: 768px){
-    top: 0;
-  }
-  @media screen and(max-width: 568px){
-    top: 1vw;
-  }
-  @media screen and(max-width: 468px){
-    height: 25vw;
-    width: 25vw;
-    z-index: -1;
-    display: block;
-    top: -3vw;
-    left: 35%;
-  }
-  @media screen and(max-width: 368px){
-    top: -2vw;
-  }
-}
+
+    //--added--//
+      font-family:$mainFont;
+      font-size: 1.40vw;
+      letter-spacing: 3px;
+    //--added--//
+      // .test svg{
+      //     position: absolute;
+      //     z-index: 999999;
+      //     height: 15vw;
+      //     width: 15vw;
+      //     width: 20vh;
+      //     left: 2vh;
+      // }
 
     .navigation p {
       cursor: pointer;
@@ -54,7 +32,7 @@
     .activedRoute {
       //--added--//
         color:$turnOnLightColor;
-        @include headerFontStyle;
+        // @include headerFontStyle;
         transition: text-shadow .3s ease-in-out,
                     color .3s ease-in-out,
                    -webkit-box-reflect .3s ease-in-out;
@@ -64,31 +42,14 @@
         width:25%;
         height:inherit;
         @include flex(between);
-      @media screen and(max-width: 768px){
-        width:33%;
-      }
-      @media screen and(max-width: 568px){
-        width:41%;
-      }
-      @media screen and(max-width: 468px){
-        @include flex(around);
-        width:59%;
-      }
+
     }
     .auth{
         position:absolute;
         width:15%;
         right:5vw;
-      @media screen and(max-width: 768px){
-        width:20%;
     }
-      @media screen and(max-width: 568px){
-        width:24%;
-      }
-      @media screen and(max-width: 468px){
-        width:36%;
-      }
-    }
+
 }
 
 
@@ -107,7 +68,6 @@
         height:auto;
         height:90vh;
         float:left;
-      //--added--//
         border: 3px solid #66d3e2;
         border-radius: 10px;
         box-shadow: 0 2px 6px 4px rgb(129 1 255 / 50%), inset 0px 0px 10px 3px #7379ff;
