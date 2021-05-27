@@ -11,7 +11,7 @@ export class CatalogComponent implements OnInit {
         text: "NEWS",
       },
       {
-        text: "HelloWorld",
+        text: "HelloWorld!",
       },{
         text: "NEWS2",
       },{
