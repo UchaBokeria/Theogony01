@@ -5,37 +5,18 @@
     height:10vh;
     color:$turnOffColor;
     @include flex();
-
-    //--added--//
       font-family:$mainFont;
       font-size: 1.40vw;
       letter-spacing: 3px;
-    //--added--//
-      // .test svg{
-      //     position: absolute;
-      //     z-index: 999999;
-      //     height: 15vw;
-      //     width: 15vw;
-      //     width: 20vh;
-      //     left: 2vh;
-      // }
-
     .navigation p {
       cursor: pointer;
-      //--added--//
       position: relative;
-        left: 4vh;
-      transition: text-shadow .3s ease-in-out,
-                  color .3s ease-in-out,
-                  -webkit-box-reflect .3s ease-in-out;
+      left: 4vh;
+      @include mainTransition(text-shadow,color,-webkit-box-reflect);
     }
     .activedRoute {
-      //--added--//
         color:$turnOnLightColor;
-        // @include headerFontStyle;
-        transition: text-shadow .3s ease-in-out,
-                    color .3s ease-in-out,
-                   -webkit-box-reflect .3s ease-in-out;
+       @include mainTransition(text-shadow,color,-webkit-box-reflect);
         -webkit-box-reflect:below  -1vw linear-gradient(transparent,#0005,$turnOnLightColor);
     }
     .navigation {
@@ -49,10 +30,7 @@
         width:15%;
         right:5vw;
     }
-
 }
-
-
 .content{
     width:100%;
     height:90vh;
@@ -68,10 +46,6 @@
         height:auto;
         height:90vh;
         float:left;
-        border: 3px solid #66d3e2;
-        border-radius: 10px;
-        box-shadow: 0 2px 6px 4px rgb(129 1 255 / 50%), inset 0px 0px 10px 3px #7379ff;
-
     }
     .allchat {
         width:20%;

@@ -4,6 +4,7 @@
     padding:5%;
     min-height:800vh;
     width:100%;
+    //@include mainBorder(10px);
     .home-post{
     }
     .full{
@@ -75,7 +76,7 @@
     //         background:pink;
     //         float:left;
     //     }
-    // 
+    //
     //     .thierd{
     //         width:30%;
     //         height:50vh;

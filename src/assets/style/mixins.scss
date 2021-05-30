@@ -14,10 +14,15 @@
     }
     align-items:center;
 }
-// @mixin headerFontStyle{
-//   text-shadow: 1px 0px 12px #8316a6;
-//   //text-shadow: 0 1px 4px #69d9e8;
-//   -webkit-text-stroke: 1px #4c797f;
-// 
-// 
-// }
+@mixin mainBorder($radius: 10px){
+  border: 3px solid #66d3e2;
+  border-radius: $radius;
+  box-shadow: 0 2px 6px 4px rgb(129 1 255 / 50%),
+             inset 0 0 10px 3px #7379ff;
+}
+
+@mixin mainTransition($optionOne,$optionTwo,$optionThree){
+  transition: $optionOne .3s ease-in-out,
+              $optionTwo .3s ease-in-out,
+              $optionThree .3s ease-in-out;
+}
