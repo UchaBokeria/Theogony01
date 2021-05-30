@@ -24,7 +24,7 @@
         ::placeholder {
             font-size: 1vw;
         }
-    }  
+    }
 
     .messages {
         color:white;
@@ -38,10 +38,10 @@
             width:100%;
             min-height:7vh;
             height:auto;
-            margin:5vh 0%;
+            margin-bottom:1rem;
             border-bottom:2px solid black;
             position: relative;
-            
+
             p{
                 position:absolute;
                 word-break:break-all;
@@ -58,10 +58,10 @@
             }
         }
     }
-    
+
     ::-webkit-scrollbar {
         display: none;
     }
 }
-  
+
 

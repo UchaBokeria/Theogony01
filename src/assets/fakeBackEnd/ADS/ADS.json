@@ -1,0 +1,44 @@
+{
+  "ADS" : [
+    {
+        "id": "A01" ,
+        "sourceImg": "./assets/fakeBackEnd/ADS/adsIMG/0718.sdt-github.png",
+        "soource": "./"
+    },
+    {
+      "id": "A02" ,
+      "sourceImg": "./assets/fakeBackEnd/ADS/adsIMG/ads-popularization-programming-taking-pictures-photo-processing.jpg",
+      "soource": "./"
+    },
+    {
+      "id": "A03" ,
+      "sourceImg": "./assets/fakeBackEnd/ADS/adsIMG/computer.jpg",
+      "soource": "./"
+    },
+    {
+      "id": "A04" ,
+      "sourceImg": "./assets/fakeBackEnd/ADS/adsIMG/computer-program.jpg",
+      "soource": "./"
+    },
+    {
+      "id": "A05" ,
+      "sourceImg": "./assets/fakeBackEnd/ADS/adsIMG/f10be32c06c751191f7ef497abc428db.png",
+      "soource": "./"
+    },
+    {
+      "id": "A06" ,
+      "sourceImg": "./assets/fakeBackEnd/ADS/adsIMG/MIT-Program-Bacteria_0.jpg",
+      "soource": "./"
+    },
+    {
+      "id": "A07" ,
+      "sourceImg": "./assets/fakeBackEnd/ADS/adsIMG/programmingLanguages.jpg",
+      "soource": "./"
+    },
+    {
+      "id": "A08" ,
+      "sourceImg": "./assets/fakeBackEnd/ADS/adsIMG/school_EN.jpg",
+      "soource": "./"
+    }
+  ]
+}
