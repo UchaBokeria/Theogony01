@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { GuestModule } from "./guest/guest.module";
 import { AdminModule } from "./admin/admin.module";
 import { WildcardComponent } from './wildcard/wildcard.component';
+import {FormsModule} from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import { WildcardComponent } from './wildcard/wildcard.component';
     AppRoutingModule,
     BrowserModule,
     GuestModule,
-    AdminModule
+    AdminModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

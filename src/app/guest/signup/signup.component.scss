@@ -1,65 +1,69 @@
 @import "~src/assets/style/linkin.scss";
 
-* {box-sizing: border-box}
+.login-form {
+  position: relative;
+  left: 1%;
+  top: 5%;
+  width: 98%;
+  height: 60vh;
+  border: 2px solid aqua;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(133, 51, 240);
 
+  .move-login {
+    position: relative;
+    @include flex (evenly, column);
+    top: 4vh;
 
-  input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
+    input {
+      width: 37%;
+      height: 3.5vh;
+      border: 2px solid aqua;
+      background: black;
+      border-radius: 13px;
+      box-shadow: 0 0 15px rgb(133, 51, 240);
+      color: aqua;
+      outline: none;
+      
+    }
+    b {
+      font-size: 1.3vw;
+      color: aqua;
+      position: relative;
+      right: 25%;
+      top: 3.2vh;
+    }
+    .repeat-password {
+      position: relative;
+      right: 27%;
+    }
+    .secret-name {
+      position: inherit;
+      right: 26%;
+    }
+    button {
+      position: relative;
+      top: 12vh;
+      width: 20%;
+      height: 4vh;
+      color: black;
+      background: aqua;
+      box-shadow: 0 0 15px rgb(133, 51, 240);
+      border-radius: 2px;
+    }
+  }
 }
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-
-button {
-  background-color: #04AA6D;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-button:hover {
-  opacity:1;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-}
-
-/* Add padding to container elements */
-.container {
-  padding: 16px;
-}
-
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-    width: 100%;
+.terms-and-agreements {
+  position: relative;
+  top: 1%;
+  width: 98%;
+  height: 50vh;
+  border: 2px solid aqua;
+  left: 1%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(133, 51, 240);
+  h1 {
+    color: aqua;
+    font-size: 1.1vw;
   }
 }
