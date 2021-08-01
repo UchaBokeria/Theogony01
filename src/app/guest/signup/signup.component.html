@@ -24,20 +24,22 @@
     suscipit quisquam maiores tenetur amet consectetur numquam fugiat 
     provident pariatur ipsum, aperiam incidunt adipisci!</h1>
 </div>
-<div class="login-form">
-  <div class="move-login">
+<form class="signup-form">
+<div class="login">
+  <div class="move-signup">
     <b class="username">Username</b>
-    <input type="text" id="username">
+    <input ngModel name="BindUsername" #BindUsername = "ngModel" (change) = "username(BindUsername)" type="text" id="username">
 
     <b class="password">Password</b>
-    <input type="text" id="password">
+    <input ngModel name="BindPassword" #BindPassword = "ngModel" (change) = "password(BindPassword)" type="password" id="password">
 
     <b class="repeat-password">Repeat Password</b>
-    <input type="text" id="repeat-password">
+    <input ngModel name="BindRepeat" #BindRepeat = "ngModel" (change) = "repeat(BindRepeat)" type="password" id="repeat-password">
 
     <b class="secret-name">Secret Name</b>
-    <input type="text" id="secret-name">
+    <input ngModel name="BindSecretName" #BindSecretName = "ngModel" (change) = "secretname(BindSecretName)" type="password" type="text" id="secret-name">
 
-    <button type="submit" class="signupbtn"></button>
+    <button type="submit" class="signupbtn">Sign Up</button>
   </div>
 </div>
+</form>

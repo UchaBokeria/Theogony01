@@ -13,6 +13,8 @@ import { LoginComponent }     from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 
 import { MainComponent }      from './main/main.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { MainComponent }      from './main/main.component';
   ],
   imports: [
     CommonModule,
-    GuestRoutingModule
+    GuestRoutingModule,
+    FormsModule,
+    HttpClientModule
   ]
 })
 export class GuestModule { }

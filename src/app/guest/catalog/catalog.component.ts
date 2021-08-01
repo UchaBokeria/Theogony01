@@ -6,56 +6,52 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./catalog.component.scss']
 })
 export class CatalogComponent implements OnInit {
-    formebi = [
+    catalog = [
       {
-        text: "NEWS",
+        text: "SOME TEXT"
       },
       {
-        text: "HelloWorld!",
-      },{
-        text: "NEWS2",
-      },{
-        text: "NEWS3",
-      },{
-        text: "NEWS4",
-      },{
-        text: "NEWS5",
-      },{
-        text: "NEWS6",
-      },{
-        text: "NEWS7",
-      },{
-        text: "NEWS8",
-      },{
-        text: "NEWS9",
-      },{
-        text: "NEWS10",
-      },{
-        text: "NEWS11",
-      },{
-        text: "NEWS12",
-      },{
-        text: "NEWS13",
-      },{
-        text: "NEWS14",
-      },{
-        text: "NEWS15",
-      },{
-        text: "NEWS16",
-      },{
-        text: "NEWS17",
-      },{
-        text: "NEWS18",
-      },{
-        text: "NEWS19",
-      },{
-        text: "NEWS20",
+        text: "NEWS"
+      },
+      {
+        text: "About Programming"
+      },
+      {
+        text: "SOME TEXT"
+      },
+      {
+        text: "SOME TEXT"
+      },
+      {
+        text: "SOME TEXT"
+      },
+      {
+        text: "SOME TEXT"
+      },
+      {
+        text: "SOME TEXT"
+      },
+      {
+        text: "SOME TEXT"
+      },
+      {
+        text: "SOME TEXT"
+      },
+      {
+        text: "SOME TEXT"
+      },
+      {
+        text: "SOME TEXT"
+      },
+      {
+        text: "SOME TEXT"
+      },
+      {
+        text: "SOME TEXT"
       },
     ]
-    
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }

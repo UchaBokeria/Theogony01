@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { GuestModule } from "./guest/guest.module";
 import { AdminModule } from "./admin/admin.module";
 import { WildcardComponent } from './wildcard/wildcard.component';
-import {FormsModule} from '@angular/forms';
+import { FormsModule} from '@angular/forms';
 
 
 @NgModule({

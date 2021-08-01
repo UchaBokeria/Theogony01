@@ -1,19 +1,6 @@
-<div class="obj1">
-    <div class="obj5">
-      <div class="obj4">
-        <div class="obj2"  *ngFor = "let first of formebi" >
-          <p  style="color:rgb(255, 255, 255)" class="obj3"> {{first.text}}
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="obj6">
-      <div class="obj7">
-        <img src="./assets/_images/upload/adsIMG/0718.sdt-github.png" alt="">
-      </div>
-      <div class="obj7">
-        <img src="./assets/_images/upload/adsIMG/ads-popularization-programming-taking-pictures-photo-processing.jpg" alt="">
-      </div>
-    </div>
-  </div>
+<div class="catalog">
+  <a class="catalog-buttons" *ngFor = "let texts of catalog">{{texts.text}}</a>
+</div>
+<div class="ads">ADS</div>
+<div class="cripto">CRIPTO</div>
 

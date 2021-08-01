@@ -1,7 +1,7 @@
 <div class="login">
-    <input type="text" id="username">
-    <input type="password">
-    <input type="text" id="capcha">
+    <input ngModel name="UserName" #UserName = "ngModel" (change) = "username(UserName)" type="text" id="username">
+    <input ngModel name="Password" #Password = "ngModel" (change) = "password(Password)" type="password">
+    <textarea ngModel name="Capcha" #Capcha = "ngModel" (change) = "capcha(Capcha)" id="capcha"></textarea>
     <button>Log in</button>
     <p class="text-username">Username</p>
     <p class="text-password">Password</p>

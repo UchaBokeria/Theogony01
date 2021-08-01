@@ -1,9 +1,9 @@
-<div class="allchat-container">
+ <div class="allchat-container">
     <div class="messages">
-      <div class="message-container"*ngFor="let message of msgs">
-        <p> {{message.nickname}} : {{message.time}} </p>
+      <div class="message-container" *ngFor="let message of chat">
+        <p> {{message}} : {{message}} </p>
 
-        <div class="msg-text"> {{message.msg}} </div>
+        <div class="msg-text"> {{message}} </div>
       </div>
     </div>
   <input type="text" placeholder="Type">

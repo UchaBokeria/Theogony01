@@ -8,7 +8,7 @@
     width: 99%;
     height: 45vh;
     border: 2px solid aqua;
-    box-shadow: 0 0 12px rgb(174, 12, 223);
+    box-shadow: 0 0 20px rgb(133, 51, 240);
     border-radius: 15px;
     outline: none;
     @include flex(between, column);
@@ -17,18 +17,18 @@
         text-shadow: 0 0 5px aqua;
         position: relative;
         color: aqua;
-        bottom: 22vh;
+        bottom: 22.5vh;
         right: 30vh;
         font-size: 1.4vw;
         letter-spacing: 0.2vh;
     }
     .text-username {
         position: relative;
-        bottom: 23.5vh;
+        bottom: 24vh;
     }
     .text-password {
         position: relative;
-        bottom: 22.5vh;
+        bottom: 23vh;
     }
     input {
         top: 3vh;
@@ -36,9 +36,9 @@
         position: relative;
         bottom: 4vh;
         background-color: black;
-        border: 0.1px solid aqua;
-        box-shadow: 0 0 10px rgb(174, 12, 223);
-        border-radius: 8px;
+        border: 2px solid aqua;
+        box-shadow: 0 0 15px rgb(133, 51, 240);
+        border-radius: 12px;
         color: white;
         font-size: 1.1vw;
         outline: none;
@@ -50,6 +50,18 @@
     #capcha {
         height: 10vh;
         transform: translate(0vh, 5vh);
+        top: 3vh;
+        width: 33%;
+        position: relative;
+        bottom: 4vh;
+        background-color: black;
+        border: 2px solid aqua;
+        box-shadow: 0 0 15px rgb(133, 51, 240);
+        border-radius: 12px;
+        color: white;
+        font-size: 1.1vw;
+        outline: none;
+        color: aqua;
     }
     #username {
         transform: translate(0vh, 3vh);
@@ -61,7 +73,7 @@
         height: 4.4vh;
         background-color: aqua;
         bottom: -11vh;
-        box-shadow: 0 0 10px rgb(174, 12, 223);
+        box-shadow: 0 0 15px rgb(133, 51, 240);
         border-radius: 3px;
     }
 }
@@ -76,5 +88,5 @@
     color: aqua;
     font-size: 3vw;
     @include flex(center, center);
-    box-shadow: 0 0 12px rgb(174, 12, 223);
+    box-shadow: 0 0 20px rgb(133, 51, 240);
 }

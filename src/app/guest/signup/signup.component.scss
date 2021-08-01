@@ -1,8 +1,8 @@
 @import "~src/assets/style/linkin.scss";
 
-.login-form {
+.login {
   position: relative;
-  left: 1%;
+  left: 0.5%;
   top: 5%;
   width: 98%;
   height: 60vh;
@@ -10,7 +10,7 @@
   border-radius: 10px;
   box-shadow: 0 0 20px rgb(133, 51, 240);
 
-  .move-login {
+  .move-signup {
     position: relative;
     @include flex (evenly, column);
     top: 4vh;
@@ -59,11 +59,15 @@
   width: 98%;
   height: 50vh;
   border: 2px solid aqua;
-  left: 1%;
   border-radius: 10px;
+  left: 0.5%;
   box-shadow: 0 0 20px rgb(133, 51, 240);
   h1 {
     color: aqua;
     font-size: 1.1vw;
   }
+}
+.signup-form {
+  position: relative;
+  top: 4%;
 }
